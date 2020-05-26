@@ -15,10 +15,26 @@ div {
 
 .yankee-script {
     font-family: Yankee Script, Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 2em;
+    font-size: 3em;
 }
 .badge {
     vertical-align: middle;
     height: 100px;
     width: 100px;
+}
+
+.flex {
+    display: flex;
+}
+
+.card {
+    flex: 1;
+    background-color: #093996;
+    border: aliceblue 1px inset;
+    margin-right: .5em;
+}
+
+.stadium {
+    width: 300px;
+    height: 170px;
 }

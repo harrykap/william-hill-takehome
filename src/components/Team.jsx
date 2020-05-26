@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import Facts from './Facts';
+import Stadium from './Stadium';
 
 export default class Team extends Component {
     constructor(props) {
@@ -30,11 +32,15 @@ export default class Team extends Component {
     render() {
         return (
             <React.Fragment>
-                <h1>
+                <header>
                     <img src={this.state.teamInfo.strTeamBadge} alt={'team badge'} className={'badge'} />
                     <span className={'yankee-script'}>&nbsp;&nbsp;{this.state.teamInfo.strTeam}</span>
-                </h1>
+                </header>
                 <hr />
+                <div className={'flex'}>
+                    <Facts teamInfo={this.state.teamInfo}/>
+                    <Stadium stadiumInfo={this.state.teamInfo}/>
+                </div>
             </React.Fragment>
         )
     }
