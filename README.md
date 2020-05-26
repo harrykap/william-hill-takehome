@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 The app was built with node version 12.14.1 and npm version 6.13.4. Later versions should also work but have not been tested
 
-Unpack the zip file
+Clone the repository
 
 ####From the command line 
 (I used gitbash):
