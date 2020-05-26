@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Yankee Script;
+    src: url(Shelley-Script-LT-Std_40892.ttf);
+}
+
+body {
+    background-color: #003087;
+    color: #EEEEEE;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+div {
+    padding: .5em;
+}
+
+.yankee-script {
+    font-family: Yankee Script, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 2em;
+}
+.badge {
+    vertical-align: middle;
+    height: 100px;
+    width: 100px;
+}
